@@ -1,0 +1,50 @@
+{
+  "resources": {
+    "head": [
+      {
+        "type": "script",
+        "src": "eager-app.js"
+      }
+    ]
+  },
+  "options": {
+    "properties": {
+      "text": {
+        "order": 1,
+        "title": "Text",
+        "type": "string",
+        "format": "textarea",
+        "default": "Put your text here!"
+      },
+      "uppercase": {
+        "order": 2,
+        "title": "Uppercase?",
+        "type": "boolean",
+        "default": false
+      },
+      "color": {
+        "order": 3,
+        "title": "Text Color",
+        "type": "string",
+        "format": "color",
+        "default": "#7d9ee0"
+      },
+      "size": {
+        "order": 4,
+        "title": "Size",
+        "type": "string",
+        "enum": [
+          "small",
+          "medium",
+          "large"
+        ],
+        "enumNames": {
+          "small": "Small",
+          "medium": "Medium",
+          "large": "Large"
+        },
+        "default": "medium"
+      }
+    }
+  }
+}
