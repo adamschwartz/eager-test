@@ -33,8 +33,8 @@
         var style = document.createElement('style');
         style.innerHTML = '' +
             'text {' +
-                'color: ' + options.color + ' !important' +
-                'font-size: ' + fontSize + ' !important' +
+                'color: ' + options.color + ' !important;' +
+                'font-size: ' + fontSize + 'px !important' +
             '}';
         document.body.appendChild(style);
     };
