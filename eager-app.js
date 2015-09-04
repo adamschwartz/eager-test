@@ -42,6 +42,7 @@
     // after DOM renders, load app
     document.addEventListener('DOMContentLoaded', function() {
         addStyles();
+        document.body.appendChild(textEl);
     });
 
 })();
